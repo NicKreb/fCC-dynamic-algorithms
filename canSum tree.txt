@@ -1,0 +1,55 @@
+envisioning the canSum problem as  a tree
+lets start with a simple set of variables
+
+canSum(7, [5, 3, 4, 7]) should = true!
+
+the tree for this would look like such:
+                    7
+    -5      -3              -4      -7
+2           4                 3          0
+        -3      -4            -3
+        1       0               0
+
+the 0 nodes are the base cases! and generally are true! when applied to the solution requirements!
+where as the results of 1 or 2 are false!
+
+and as long as there is 1 true answer, then this passes the requirements!
+
+in the second tutorials first answer we noticed some flaws: for shorter numbers it would pump out the correct answer,
+but for bigger numbers it either would not finish or took too long.
+
+so going back to the drawing board we look for memoization opportunities!
+
+for canSum(8,[2, 3, 5])
+
+we would see:
+
+8
+-2 [6] -3 [5] -5[3]
+
+[6]
+-2 {4} -3 {3} -5{1}
+[5]
+-2{3} -3{2} -5{0}
+[3]
+-3{0} -2{1}
+
+{4}
+-2[2] -3[1]
+{3}
+repeated!
+{1} false!
+
+{3}
+repeated!
+{2}
+-2[0]
+
+{1} false!
+
+[2]
+repeated!
+[1]
+false!
+
+we see a lot of repetitions! especially with 1's, 2's, and 3's
