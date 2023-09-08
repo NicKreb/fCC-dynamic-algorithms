@@ -1,0 +1,12 @@
+memoization recipe:
+
+1. Make a recursive solution that works first.
+    a. visualize the problems as a tree
+    b. implement the tree using recursion
+        *. think of the leaves like base cases!
+    c. test out the solution, this will be considered the brute force recurssion.
+
+2. Then memoize it and seek out efficiency for the solution.
+    a. add a memo object
+    b. add a base case to return memo values
+    c. store return values into the memo
