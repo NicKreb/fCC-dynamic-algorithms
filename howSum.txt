@@ -1,0 +1,17 @@
+much like canSum, with howSum we want to return the first possible combination of numbers, that equal the targetSum
+or return null.
+
+all numbers must be positive, and if it is 0 then return and empty array [].
+
+this code funcitons a lot like the canSum function in that they both take the same args
+but output different answers.
+
+an example tree of this:
+
+7 [5, 4, 3, 7];
+
+7 -5(2) -4(3) -3(4) -7(0)
+
+2 = null | 3(-3[0]) 3(-4[null]) | 4(-2[2 { -2 > 0[] }]) 4(-3[1 null]) | 0 = []
+
+in this instance it would return the first set which is [3, 4].
