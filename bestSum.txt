@@ -1,0 +1,18 @@
+The goal here is to contain an array that returns the shortest solution
+for the targetSum.
+
+example: bestSum(7, [5, 3, 4, 7]);
+
+this should just return [7];
+
+and bestSum(8, [2, 3, 5]);
+should return [3, 5];
+
+tree visualization is helpful, but this time we shouldn't look for the first available
+branch series. But rather the smallest branch.
+
+
+------ algorithm goals ------
+canSum > can you do it? yes/no {decision problem}
+howSum > how will you do it? {combinatoric problem}
+bestsum > What is the best way to do it? {optimization problem}
