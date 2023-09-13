@@ -1,0 +1,8 @@
+Write a f(x) `canConstruct(target, wordBank)` that accepts a target string and an array of strings.
+
+the f(x) should return a boolean indicating whether or not `target` can be constructed by the concatenating elements of the `wordBank` array.
+
+you may reuse elements of `wordBank` as many times as needed.
+
+this is the same type of problem as the canSum algorithm. Instead of numbers though,
+this is using strings and letters.
