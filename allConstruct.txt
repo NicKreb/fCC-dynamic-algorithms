@@ -1,0 +1,7 @@
+Write a function called allConstruct() that accepts a target string and array of strings
+
+The function should return a 2d array containing all the ways
+that the target can be constructed by concatenating elements of the wordBank array.
+Each element of the 2D array should represent one combo that constructs the target.
+
+You can reuse elements of wordBank as many times as needed.
