@@ -1,0 +1,32 @@
+write a function fib(n) that takes in a number as an arg.
+The function should return the nth number of the Fibonacci sequence
+
+the 0th num of the sequence is 0.
+the 1st num of the sequence is 1.
+
+to Generate the next number of the sequence, we sum the previous two.
+
+the approach we are going to take is called Tabulation
+
+-building a table.
+
+fib(6) -> 8
+
+were choosing to think about it in terms of subproblems, however. Rather than 
+approach it recursively, we approach it iteratively and use an array.
+
+[0, 1, 2, 3, 4, 5, 6]
+
+[0, 0, 0, 0, 0, 0, 0]
+
+The first thing we do, is initialize every cell of the table in zero.
+This is especially useful, in the fact that Fibonacci requires us to take the sum.
+and Zero is a really good starting point.
+
+[0, 1, 2, 3, 4, 5, 6]
+
+[0, 1, 0, 0, 0, 0, 0]
+
+here we want the first index to represent the value of 1.
+
+now we just need to do is iterate through

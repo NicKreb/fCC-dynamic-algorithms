@@ -1,0 +1,7 @@
+write a function countConstruct(target, wordBank) that accepts target string
+and an arr of strings.
+
+the function should return the number of ways that the target can be
+constructed by concatenating elements of the wordBank array.
+
+You may reuse elements of wordBank as many times as needed.

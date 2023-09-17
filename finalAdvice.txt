@@ -1,0 +1,9 @@
+Dynamic Programming advice:
+
+* notice any overlapping subproblems
+
+* decide waht is the trivially smallest input, is there an input where no extra work is needed?
+
+* think recursively to use Memoization
+
+* or think iteratively to use Tabulation

@@ -1,0 +1,24 @@
+----gridTravel-----
+
+-----Tabulation recipe:------
+*visualize the problem as a table:
+    what are the size and dimensions of the table?
+
+*size the table based on the imputs
+    ex: fib(n) was a dimension of n and size of n.
+    where as grid had two inputs and required more of a grid display
+
+*initialize the table with default values:
+    such as the (0,0) and (1,1) in grid.
+
+*seed the trivial answer into the table.
+    this should be a trivially small input and incredibly easy/fast for the
+    computer to process. such as fib(1) and fib(2).
+    and (1,1) in grid
+
+*iterate through the table
+
+*fill further positions based on the current position in the table.
+    Add 1 space and 2 spaces ahead in fib, or one below and one to the right in grid.
+    pay attention to the language of the problem and options within the problem
+    like moving down and right, or adding the prev two spaces.

@@ -1,0 +1,7 @@
+write a function canConstruct(target, wordBank) that accepts target string
+and an arr of strings.
+
+the function should return a boolean indicating whetehr or not target can 
+be constucted by concatenating elements of the wordBank arr.
+
+You may reuse elements of wordBank as many times as needed.

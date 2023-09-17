@@ -1,0 +1,5 @@
+write a f(x) bestSum(targetSum, numbers) that takes targetsum and an array of nums as args
+
+the function should return an array containing the shortest combo of numsthat add up to exactly the targetSum
+
+if there is a tie for shortest combo, you may return any one of them.

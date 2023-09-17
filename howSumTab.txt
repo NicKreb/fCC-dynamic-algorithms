@@ -1,0 +1,11 @@
+Write a f(x) of howSum(targetSum, numbers) that takes in targetSum and an arr of nums as args.
+
+the f(x)  should return an array containing any combo of elements that add up to exactly the target sum.
+
+if there is no combo that adds up to the targetSum return null.
+
+table length is = targetSum + 1
+
+the return should likely require a 2D array similar to the gridtravelerTab.js file.
+
+if there are multiple combos possible, you may return any single one.
